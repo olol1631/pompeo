@@ -11,9 +11,9 @@ burger.addEventListener('click', ()=>{
 })
 menu.addEventListener('click', (e) => {
     if(e.target.closest('.menu__item')){
-        burger.classList.toggle('active')
-        menu.classList.toggle('active')
-        body.classList.toggle('lock')
+        burger.classList.remove('active')
+        menu.classList.remove('active')
+        body.classList.remove('lock')
     }
 })
 
